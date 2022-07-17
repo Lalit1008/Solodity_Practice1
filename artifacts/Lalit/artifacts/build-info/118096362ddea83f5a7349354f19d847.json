@@ -1,0 +1,71 @@
+{
+	"id": "118096362ddea83f5a7349354f19d847",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.7.6",
+	"solcLongVersion": "0.7.6+commit.7338295f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"artifacts/Lalit/Fallback,  Receive.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\n\npragma solidity  >=0.5.0 <0.8.0;\n\n/* fallback is superior than Receive.\nFallback:- It is execuated when a non-existent function is called on the contract.\nvisilibity External karn hogi.\nNo arguments pass in this\nreturn kuch nahi karta\ndata leta hai:- bytes ki form me. and ether leta hai, iske liye payable banana hota hai.\nit can be difined one for contract.\nReceive:- ye only ether le skta hai, data nahi le skta and receive ko payable karna hota hai.\nand other thingh same as fallback.*/\n\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"artifacts/Lalit/Fallback,  Receive.sol": {
+				"ast": {
+					"absolutePath": "artifacts/Lalit/Fallback,  Receive.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0",
+								"<",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:32:0"
+						}
+					],
+					"src": "37:493:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

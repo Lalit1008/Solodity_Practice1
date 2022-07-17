@@ -1,0 +1,324 @@
+{
+	"id": "6c72b0143ea5c201ee0ca7053ee26c36",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.7.6",
+	"solcLongVersion": "0.7.6+commit.7338295f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"artifacts/Lalit/modifier.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\n\npragma solidity  >=0.5.0 <0.8.0;\n\n// modifier specia type of function, code duplicity ki jagah use karte hai.i.e: code reuse kar sakte hai.\n// modifier me input bhi dal sakte hai\n\ncontract Modifier{\n\n\n    \n} "
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"artifacts/Lalit/modifier.sol": {
+				"Modifier": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"artifacts/Lalit/modifier.sol\":217:244  contract Modifier{... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"artifacts/Lalit/modifier.sol\":217:244  contract Modifier{... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa264697066735822122045ac0bf9686391ec5954a22b68d68483f1c8a23d837488eaabf98f84c81da43164736f6c63430007060033\n}\n",
+						"bytecode": {
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122045ac0bf9686391ec5954a22b68d68483f1c8a23d837488eaabf98f84c81da43164736f6c63430007060033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GASLIMIT 0xAC SIGNEXTEND 0xF9 PUSH9 0x6391EC5954A22B68D6 DUP5 DUP4 CALL 0xC8 LOG2 RETURNDATASIZE DUP4 PUSH21 0x88EAABF98F84C81DA43164736F6C63430007060033 ",
+							"sourceMap": "217:27:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea264697066735822122045ac0bf9686391ec5954a22b68d68483f1c8a23d837488eaabf98f84c81da43164736f6c63430007060033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GASLIMIT 0xAC SIGNEXTEND 0xF9 PUSH9 0x6391EC5954A22B68D6 DUP5 DUP4 CALL 0xC8 LOG2 RETURNDATASIZE DUP4 PUSH21 0x88EAABF98F84C81DA43164736F6C63430007060033 ",
+							"sourceMap": "217:27:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 217,
+									"end": 244,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a264697066735822122045ac0bf9686391ec5954a22b68d68483f1c8a23d837488eaabf98f84c81da43164736f6c63430007060033",
+									".code": [
+										{
+											"begin": 217,
+											"end": 244,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 217,
+											"end": 244,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 217,
+											"end": 244,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 217,
+											"end": 244,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 217,
+											"end": 244,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 217,
+											"end": 244,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"artifacts/Lalit/modifier.sol\":\"Modifier\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"artifacts/Lalit/modifier.sol\":{\"keccak256\":\"0x10fd990f0b0dbe413c8820320d4392970a55c03127379532b0cf934ea2b60355\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://3e4d1ffee76ef0000f2e647b05322cdfbc441688a7415118109933e6b94bf23f\",\"dweb:/ipfs/QmdjeRbZCXndhk2cvexfgX9mU5FKLsbRxHRj7B1iE643R8\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"artifacts/Lalit/modifier.sol": {
+				"ast": {
+					"absolutePath": "artifacts/Lalit/modifier.sol",
+					"exportedSymbols": {
+						"Modifier": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0",
+								"<",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:32:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "Modifier",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "217:27:0"
+						}
+					],
+					"src": "37:208:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"id": "4dac35eaa07caf8a96529bdf764faca6",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.7.6",
+	"solcLongVersion": "0.7.6+commit.7338295f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"artifacts/Lalit/send,transfer,call theory.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\n\npragma solidity >=0.5.0 <0.8.0;\n\n/* kisi account se kisi contract or address me ether bheje ke liye payable, fallback, receive use karte hai\nand kisi contract se kisi account me or kisi dusre contract me ether send karne ke liye \nsend, transfer, call use karte hai.\n\nsend function :isme return bool hota hai, and transction success hone par true return hota hai \nlimit : 2300 gas, gas cost max.\nyadi transaction false ho gya to gas puri use kar leta hai, remaning gas revert use nahi karta hai.and \nyadi state variable me change hua ho to use bhi revert nahi karta hai \nso not use send function , if send function ko use karna bhi ho to require ka use kare, jisme condition \nlagaye ki transaction ki gas cost 2300 gas se kam hai ya nahi. \n\ntransfer \n\n\n*/\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"artifacts/Lalit/send,transfer,call theory.sol": {
+				"ast": {
+					"absolutePath": "artifacts/Lalit/send,transfer,call theory.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0",
+								"<",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:31:0"
+						}
+					],
+					"src": "37:755:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

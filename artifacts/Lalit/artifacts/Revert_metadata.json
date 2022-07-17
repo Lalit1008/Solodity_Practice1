@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check3",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/revert, assert.sol": "Revert"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/Lalit/revert, assert.sol": {
+			"keccak256": "0xe11a9b917d76dd7f8528711ea0cd60b66222cb5cdb0f61a542e0c53b4e471538",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://eb8e07c61c330aafd568fcbbf665d5718702899c612e209fd3265c5feb9e4272",
+				"dweb:/ipfs/QmTMWpoBPS4NUTmxzLaLNUyUCvtfUdXE6fj2YhZysHzxU4"
+			]
+		}
+	},
+	"version": 1
+}

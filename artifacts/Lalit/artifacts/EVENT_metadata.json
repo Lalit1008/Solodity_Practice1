@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "Val",
+						"type": "uint256"
+					}
+				],
+				"name": "balance",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_val",
+						"type": "uint256"
+					}
+				],
+				"name": "setdata",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/Event.sol": "EVENT"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/Lalit/Event.sol": {
+			"keccak256": "0xef4d36dffea84e6bb9caf1308b075bddb8886ae396e9a05a4a4b553c3b5b13f0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://74acf3159f05d67656f0e38bb7bfdda914a28cd56e3c6a400c8ccbfd26b9f569",
+				"dweb:/ipfs/QmQJZi6UfdAtpvyFVRPzya6Kh2CBBGe9JQtJpWjAzvRJRX"
+			]
+		}
+	},
+	"version": 1
+}

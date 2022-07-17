@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/Two Factor Factory.sol": "CloneFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"artifacts/Lalit/Ownable.sol": {
+			"keccak256": "0x27859030a47f274f647c726d7154207782f41c299a471ad984fb937a96726e9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://03dc74c9002f66b328d3cf2146f8684fe1a4574b771948933a39ecda1467ab89",
+				"dweb:/ipfs/QmPJq3SLdXqcbaejBs6UxANXkaYryGwjBSixR2CcWzVgQw"
+			]
+		},
+		"artifacts/Lalit/Two Factor Factory.sol": {
+			"keccak256": "0x35c12491f2833b115465113e0887740ba955bf184594cfdd97bd4db9c915766c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd7f209eff31203cc59f5b7d3f63b6dc73ea63ab8e146c07d04fdb16bb075fae",
+				"dweb:/ipfs/QmVAG1KjJkK1QrWqNb4A5LuYVD5h5HwWJeYR9cxor1CMHN"
+			]
+		}
+	},
+	"version": 1
+}

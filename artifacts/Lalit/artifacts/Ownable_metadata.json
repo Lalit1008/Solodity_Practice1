@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "This contract module is inspired from  https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol OpenZepplin Ownable contract. The code is forked from Ownable except  2 functions i.e. renounce and transfer ownership. In our usecase, we do not require users  to transfer or renounce ownership as it is always aligned with the original user.",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "Initializes the contract setting the deployer as the initial owner."
+				},
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"artifacts/Lalit/Ownable.sol": {
+			"keccak256": "0x27859030a47f274f647c726d7154207782f41c299a471ad984fb937a96726e9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://03dc74c9002f66b328d3cf2146f8684fe1a4574b771948933a39ecda1467ab89",
+				"dweb:/ipfs/QmPJq3SLdXqcbaejBs6UxANXkaYryGwjBSixR2CcWzVgQw"
+			]
+		}
+	},
+	"version": 1
+}

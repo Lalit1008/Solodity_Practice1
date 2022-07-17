@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "SetA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/Sample for web3 connection.sol": "Sample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/Lalit/Sample for web3 connection.sol": {
+			"keccak256": "0xa6ea3b3625c19efc3c1794d188f89224314d98bbea0f8ea7091387249c90333f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4f802bd5e32626690001fa231a469ac4cb09087e080a6ca6c93c290e8d501507",
+				"dweb:/ipfs/QmbtY9XoUTvTDbeMc6c2SVAxgW7WN5jCQ5N6a1eazS2ETU"
+			]
+		}
+	},
+	"version": 1
+}

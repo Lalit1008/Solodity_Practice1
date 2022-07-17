@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Totaltime",
+						"type": "uint256"
+					}
+				],
+				"name": "end",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gettime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "start",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/now.sol": "Timer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/Lalit/now.sol": {
+			"keccak256": "0x3ae25ea88aee63b26ccd284fefe80d9129d8fce14485fbaa47f9657903e19ca4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://605b3254d4aac14e4172609a9230785b896d9121fa5b914b09210c0b2d41a23a",
+				"dweb:/ipfs/QmNTnUiotLLpE12GJDZ4QAjm5bX3hKZau7KZrZv7SxMgDQ"
+			]
+		}
+	},
+	"version": 1
+}

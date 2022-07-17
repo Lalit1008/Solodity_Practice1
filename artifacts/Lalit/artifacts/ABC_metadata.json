@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "FunB",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "funA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/A.sol": "ABC"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/Lalit/A.sol": {
+			"keccak256": "0x3ba39c9ac472b4c9616d953f5ca6e36247e6e0b0b5a0d2ce610bc53f1c0594f0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://39b67c7b5bab1c4d8234d2f4c21e8b2e05fb713b52ea33c3f54ba9126bc4966f",
+				"dweb:/ipfs/QmdJfbZXSLNXFBuCrgbdNq35JvmSterpB2fNMj7JiKie1C"
+			]
+		}
+	},
+	"version": 1
+}

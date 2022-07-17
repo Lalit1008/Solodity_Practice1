@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Callfunction",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/Lalit/interface.sol": "Accessinterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/Lalit/interface.sol": {
+			"keccak256": "0xa4328f2892759981c59671b809fcca19d8ceff20d23e7423f7a5933b04a033fb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c9c438630655afadf797f7e5930b908b78138159f1bb07f7df17bc1e9b820025",
+				"dweb:/ipfs/QmVAtp9CxLivV4s59EFvwS8rfgkwnq8pGYPZNoHYhyAUBL"
+			]
+		}
+	},
+	"version": 1
+}
